@@ -1,0 +1,392 @@
+
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background-color: goldenrod;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 150px 20px 100px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Каталог туров */
+.tour-catalog {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tour-card {
+    background-color: white;
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tour-card img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.tour-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.tour-card a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.tour-card:hover {
+    transform: scale(1.05);
+}
+
+.tour-card:hover a {
+    color: #c0392b;
+}
+
+/* Блог */
+.blog-highlights {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.blog-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 500px 10px 500px 10px;
+}
+
+.blog-card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.blog-card a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Контактная форма */
+.contact-form {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c0392b;
+}
+.sam {
+    color: #00000080;
+    font-size: 16px;
+}
+
+.box-ota {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mas {
+    font-size: 56px;
+    font-weight: 500;
+    margin-top: -15px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    z-index: 50%;
+    position: relative;
+    border-radius: 30%;
+}
+
+
+.box-text {
+    display: flex;
+    margin-left: 70px;
+    gap: 70px;
+}
+
+.text-1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 180px;
+}
+
+.text-2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 220px;
+}
+
+.text-3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+}
+.baa{
+    text-align: center;
+    font-size: 30px;
+}
+
+.col{
+    font-size: 40px;
+    font-weight: 500;
+}
+.box-p{
+    display: inline-block;
+    width: 240px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #fff4f1;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.bil{
+    padding-left: 40px;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.image{
+    height: 156.5px;
+    margin-top: 55px;
+}
+.box-z{
+    display: inline-block;
+    width: 240px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #6347f9;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.box-z:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.box-p:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.bil-1{
+    padding-left: 40px;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.olm{
+    color: #333333;
+}
+.asm{
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    font-size: 20px;
+}
+.btn{
+    margin-left: 45%;
+    color: #f07c52;
+    border: solid 1px #f07c52;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.bom{
+    margin-top: 70px;
+    margin-left: 10px;
+    gap: 60px;
+    
+}
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: #1B263B;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+}
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #3D5A80;
+    padding-top: 20px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+    margin-left: 500px;
+}
+.footer-menu h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #98C1D9;
+}
+.footer-menu ul {
+    list-style: none;
+}
+.footer-menu li a {
+    text-decoration: none;
+    color: #E0E1DD;
+    font-size: 14px;
+}
+.footer-menu li a:hover {
+    color: #98C1D9;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons i {
+    font-size: 20px;
+    color: #E0E1DD;
+}
+.social-icons i:hover {
+    color: #98C1D9;
+}
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #7B8794;
+}
